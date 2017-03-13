@@ -1,0 +1,129 @@
+.nav {
+   
+    list-style: none;
+    text-align: right;
+    background-color: #BED6BE;
+    border-bottom: 5px solid #999;
+}
+
+.nav li {
+    font-family: 'ranga', sans-serif;
+    color: #a3aaa3;
+    font-size: 1.50em;
+    display: inline-block;
+    padding-right: 25px;
+}
+
+.nav li a {
+    color: #a3aaa3;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+.nav li a:hover {
+    color:#32673f;
+}
+
+.name a {
+    font-size: 1.5em;
+    font-family: 'ranga', sans-serif;
+    color: #777;
+    float: left;
+    padding-left: 20px;
+}
+
+.name a:hover {
+    color: #32673f;
+}
+
+
+/*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+    
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+    
+    .name a {
+        font-size: 2.5em;
+        font-family: 'ranga', sans-serif;
+        color: #777;
+        float: none;
+    }
+
+    .name {
+        position: relative;
+        text-align: center;
+        top: 5px;
+    }
+
+    ul {
+        float: left;
+        width: 100%;
+        padding: 0px;
+        text-align: center;
+    }
+
+    .clear {
+        clear: both;
+    }
+
+    .navbar {
+         background-color: #BED6BE;
+         
+    }
+
+    .nav {
+        text-align: center;
+    }
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+    
+     .name a {
+        font-size: 2.5em;
+        font-family: 'ranga', sans-serif;
+        color: #777;
+        float: none;
+    }
+
+    .name {
+        position: relative;
+        text-align: center;
+        top: 5px;
+    }
+
+    ul {
+        float: left;
+        width: 100%;
+        padding: 0px;
+        text-align: center;
+    }
+
+    .clear {
+        clear: both;
+    }
+
+    .navbar {
+         background-color: #BED6BE;
+         
+    }
+
+    .nav {
+        text-align: center;
+    }
+    }

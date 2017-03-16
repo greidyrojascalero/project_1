@@ -1,39 +1,47 @@
-.nav {
-   
-    list-style: none;
-    text-align: right;
-    background-color: #BED6BE;
-    border-bottom: 5px solid #999;
+.navbar {
+    padding: 15px;
+    background-color: #51E0B8;
+    border-bottom: 5px solid #0CBE8D;
 }
 
+
+
+.nav {
+    text-align: right;
+}
+
+nav a.selected, nav a:hover {
+    color: #0da57b;
+    }
+
 .nav li {
-    font-family: 'ranga', sans-serif;
-    color: #a3aaa3;
-    font-size: 1.50em;
+    font-size: 1.3em;
     display: inline-block;
     padding-right: 25px;
 }
 
-.nav li a {
-    color: #a3aaa3;
+.nav a {
+    color: white;
     margin-right: auto;
     margin-top: 15px;
 }
 
+
+
 .nav li a:hover {
-    color:#32673f;
+    color:#0da57b;
 }
 
 .name a {
-    font-size: 1.5em;
-    font-family: 'ranga', sans-serif;
-    color: #777;
+    font-size: 2em;
+    color: white;
     float: left;
-    padding-left: 20px;
+    padding-left: 10px;
+    margin-top: -8px;
 }
 
 .name a:hover {
-    color: #32673f;
+    color: #0da57b;
 }
 
 
@@ -52,78 +60,77 @@
     /* Small Devices, Tablets */
     @media only screen and (max-width : 768px) {
     
+   .nav li {
+        padding-right: 8px;
+        font-size: 1.2em;
+    }
+   
+    .name a {
+        padding: 0px;
+    }
+    
     }
 
     /* Extra Small Devices, Phones */ 
     @media only screen and (max-width : 480px) {
     
-    .name a {
-        font-size: 2.5em;
-        font-family: 'ranga', sans-serif;
-        color: #777;
-        float: none;
+    .navbar {
+        padding: 0px; 
+        border-bottom: 0px;
+        margin-right: -5px;
     }
-
-    .name {
-        position: relative;
+    
+    .nav {
         text-align: center;
-        top: 5px;
+        background-color: #0CBE8D;
     }
 
-    ul {
+    .nav a.selected, nav a:hover {
+    color: #32673f;
+    }
+    
+     ul {
         float: left;
         width: 100%;
-        padding: 0px;
+        padding: 5px;
         text-align: center;
-    }
+        font-weight: 600;
+     }
 
-    .clear {
+     .clear {
         clear: both;
     }
 
-    .navbar {
-         background-color: #BED6BE;
-         
+    .name a {
+        font-size: 2.3em;
+        font-weight: 600;
+        width: 100%;
+        text-align: center;
+        margin: 3px;
     }
 
-    .nav {
-        text-align: center;
-    }
     }
 
     /* Custom, iPhone Retina */ 
     @media only screen and (max-width : 320px) {
     
-     .name a {
-        font-size: 2.5em;
-        font-family: 'ranga', sans-serif;
-        color: #777;
-        float: none;
+   .navbar {
+        padding: 0px;   
+        border-bottom: 0px; 
+        
     }
-
-    .name {
+  
+   .name {
         position: relative;
         text-align: center;
         top: 5px;
-    }
-
-    ul {
-        float: left;
+        line-height: 3em;
         width: 100%;
-        padding: 0px;
         text-align: center;
     }
 
-    .clear {
-        clear: both;
+   .name a {
+        float: none;
     }
-
-    .navbar {
-         background-color: #BED6BE;
-         
-    }
-
-    .nav {
-        text-align: center;
-    }
+  
     }

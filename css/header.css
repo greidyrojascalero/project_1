@@ -1,0 +1,116 @@
+header {
+    width: 100%;
+    height: 350px;
+    text-align: center;
+    background: url(../img/header_img.JPEG) no-repeat top center;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 0px;
+}
+
+.profile-imagen {
+    border-radius: 50%;
+    max-width: 130px;
+    border: 3px solid white;
+}
+
+.header-img-container {
+    margin-top: 35px;
+}
+
+.live {
+    background-color: #84B3EC;
+    display: table;
+    margin: 10px auto;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 2.5em;
+}
+
+.greeting {
+    background-color: #84B3EC;
+    display: table;
+    margin: 10px auto;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+    /*font-family: 'ranga', sans-serif;*/
+    font-weight: 500;
+    font-size: 1em;
+}
+
+/*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+     
+     .live {
+       font-size: 2em;
+     } 
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+   
+   header {
+       height: 250px;
+       padding-right: 10px;
+   }
+
+   .profile-imagen {
+    border-radius: 50%;
+    max-width: 100px;
+    }
+
+    .live {
+    display: table;
+    margin: 10px auto;
+    padding: 3px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 1.5em;
+    }
+
+    .greeting {
+        font-size: 0.85em;
+    }
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+    
+    header {
+       height: 250px;
+       padding-right: 10px;
+   }
+
+    .profile-imagen {
+    border-radius: 50%;
+    max-width: 100px;
+    }
+
+    .live {
+    display: table;
+    margin: 10px auto;
+    padding: 3px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 1.5em;
+    }
+
+    .greeting {
+        font-size: 0.85em;
+    }
+    }

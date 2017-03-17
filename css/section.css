@@ -1,0 +1,33 @@
+section {
+    margin: 20px;
+}
+
+.card {
+    background: #fff;
+    padding: 20px 40px 40px;
+    margin: 20px;
+    border-radius: 10px;
+    width: 30%;
+    border-bottom: 4px solid #ccc;
+    text-align: left; 
+}
+
+.card-primary {
+    float: left;
+}
+
+.card-primary:hover {
+    border-color: #FB829A;
+}
+
+.card-secondary {
+    float: right;
+}
+
+.card-secondary:hover {
+    border-color: #FB829A;
+}
+
+ .clear {
+        clear: both;
+    }

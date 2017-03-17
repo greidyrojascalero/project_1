@@ -14,6 +14,7 @@ section {
     padding-right: 2.5%;
     margin-left: 2.5%;
     margin-right: 2.5%; 
+    min-height: 281px;
 }
 
 .card-primary {
@@ -35,6 +36,24 @@ section {
  .clear {
         clear: both;
     }
+
+  .skills {
+      list-style-type: none;
+  }  
+
+  .skills li {
+      background-color: #FFB239;
+      display: inline-block;
+      color: #fff;
+      padding: 4px;
+      margin: 4px;
+      border-radius: 5px;
+      font-size: 0.95em;
+  }
+
+.skills li:nth-child(odd) {
+    background: #2ED1A4;
+}
 
 /*========== Non-Mobile First Method ==========*/
 /* Large Devices, Wide Screens */
@@ -58,6 +77,7 @@ section {
         padding-right: 3.5%;
         margin-left: 1.5%;
         margin-right: 1.5%;
+        min-height: auto;
     }
 }
 /* Custom, iPhone Retina */

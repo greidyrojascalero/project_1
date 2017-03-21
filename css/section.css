@@ -156,6 +156,10 @@ a {
      text-align: left; 
  }
 
+ .contact-info {
+     padding-left: 0px;
+ }
+
 }
 /* Extra Small Devices, Phones */
 

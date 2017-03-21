@@ -132,6 +132,30 @@ a {
         width: 90%;
     }
 
+    .card-contact {
+        padding-left: 3.5%;
+        padding-right: 3.5%;
+        margin-left: 1.5%;
+        margin-right: 1.5%;
+        min-height: auto;
+    }
+   
+   .contact-details {
+     padding-left: 0px; 
+   }
+
+   .primary {
+       margin-top: -25px;
+   }
+
+   .secondary {
+       margin-top: -45px;
+   }
+
+   ul {
+     text-align: left; 
+ }
+
 }
 /* Extra Small Devices, Phones */
 

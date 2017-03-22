@@ -8,14 +8,14 @@ header {
     padding-top: 0px;
 }
 
-.profile-imagen {
+.profile-image {
     border-radius: 50%;
     max-width: 130px;
     border: 3px solid white;
     transition: all .5s;
 }
 
-.profile-imagen:hover {
+.profile-image:hover {
     transform: scale(1.2) rotate(5deg);
 }
 
@@ -75,7 +75,7 @@ header {
        padding-right: 15px;
    }
 
-   .profile-imagen {
+   .profile-image {
     border-radius: 50%;
     max-width: 100px;
     }
@@ -102,7 +102,7 @@ header {
        padding-right: 15px;
    }
 
-    .profile-imagen {
+    .profile-image {
     border-radius: 50%;
     max-width: 100px;
     }

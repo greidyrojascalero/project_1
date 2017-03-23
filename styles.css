@@ -206,15 +206,15 @@ section {
 }
 
 .contact-info li.phone a {
-    background-image: url(../img/phone.png)
+    background-image: url(./images/phone.png)
 }
 
 .contact-info li.mail a {
-    background-image: url(../img/mail.png);
+    background-image: url(./images/mail.png);
 }
 
 .contact-info li.twitter a {
-    background-image: url(../img/twitter.png);
+    background-image: url(./images/twitter.png);
 }
 
 .contact-info a {

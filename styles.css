@@ -73,7 +73,7 @@ header {
     width: 100%;
     height: 350px;
     text-align: center;
-    background: url(../img/header_img.JPEG) no-repeat top center;
+    background: url(./images/header_img.JPEG) no-repeat top center;
     background-size: cover;
     overflow: hidden;
     padding-top: 0px;
